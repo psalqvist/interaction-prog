@@ -1,0 +1,337 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-image: url(css-image/cocktails-background-medium-blue.png);
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2vw;
+  color: #00396e;
+  text-align: center;
+}
+
+nav {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+nav img{
+  width: 100%;
+}
+
+h1 {
+  font-size: 1.8vw;
+  margin: 2%;
+}
+
+h2 {
+  background-color: #fff;
+  font-size: 1.8vw;
+  margin: 1% auto;
+  padding: 0.5%;
+  font-weight: 600;
+  width: 30%;
+  border-radius: 5px;
+}
+
+h3 {
+  font-size: 1.6vw;
+  margin: 2%;
+}
+
+p {
+  font-weight: 600;
+  margin: 5px;
+}
+
+input {
+  width: 30%;
+  margin: 1%;
+  padding: 1%;
+  box-sizing: border-box;
+  border: 3px solid #fff;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.4vw;
+}
+
+input:focus {
+  border: 3px solid #E8AC8B;
+}
+
+button {
+  background-color: #fff;
+  margin: 1%;
+  padding: 1%;
+  outline: none;
+  border-radius: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5vw;
+  color: #242e8a;
+  transition: transform .2s;
+}
+
+button:hover {
+  background-color: #ffd3a6;
+  transform: scale(1.05);
+}
+
+button:disabled {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #242e8a50;
+}
+
+button:disabled:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  transform: none;
+}
+
+table {
+  table-layout: fixed;
+  width: 80%;
+  padding: 2%;
+  margin: 1%;
+  margin: 0% auto;
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+  border-radius: 2%;
+}
+
+th {
+  padding: 0.5%;
+  font-size: 1.6vw;
+}
+
+td {
+  padding: 0.5%;
+  border-radius: 10px;
+}
+
+table img {
+  border-radius: 60%;
+}
+
+.main-search {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto 10%;
+}
+
+.drink-container {
+  width: 45%;
+  padding: 1%;
+  margin: 1%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  transition: transform .2s;
+}
+
+.drink-container:hover {
+  transform: scale(1.05);
+}
+
+.sign-container {
+  width: 80%;
+  padding: 1%;
+  margin: 1% auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  transition: transform .2s;
+}
+
+.drink-container img {
+  width: 35%;
+  border-radius: 100%;
+  float: left;
+  margin: 15px;
+}
+
+.drink-logo {
+  border-radius: 100%;
+  width: 60%;
+}
+
+.details-container{
+  display: flex;
+  justify-content: center;
+  float: none;
+}
+
+.empty-container {
+  margin: 1% auto;
+  padding: 2%;
+  width: 50%;
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  font-size: 1.5vw;
+}
+
+.filter-button {
+  padding: 2%;
+  margin: 2%;
+}
+
+.filter-button:focus{
+  background-color: #E8AC8B;
+  color: #fff;
+}
+
+.filter-container {
+  display: inline-block;
+  padding: 1%;
+  margin: 1%;
+  width: 10%;
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+}
+
+.information-container{
+  text-align: center;
+}
+
+#notransform:hover {
+  transform: none;
+}
+
+#brand-logo {
+  width: 18%;
+  position: absolute;
+  top: 4%;
+  left: 39%;
+}
+
+#back-logo {
+  width: 2%;
+  position: absolute;
+  top: 8%;
+  left: 1%;
+}
+
+#back-search {
+  background-color: transparent;
+  position: absolute;
+  top: 8%;
+  left: 4%;
+  margin: 0;
+  padding: 0;
+  color: #ffd3a6;
+}
+
+#back-search:hover {
+  color: #fff;
+}
+
+
+#brand-logo-cut {
+  width: 18%;
+  position: absolute;
+  top: 9%;
+  left: 39%;
+}
+
+#my-profile-logo {
+  width: 3%;
+  position: absolute;
+  top: 3%;
+  right: 10%;
+}
+
+#my-profile-button {
+  background-color: transparent;
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  margin: 0%;
+}
+
+#my-profile-button:hover {
+  color: #fff;
+}
+
+#search-logo {
+  width: 3%;
+  position: absolute;
+  top: 58%;
+  left: 27%;
+  transform: translate(-50%, -50%);
+}
+
+#search-bar {
+  position: absolute;
+  top: 54%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+}
+
+#search-button {
+  position: absolute;
+  top: 54%;
+  left: 65%;
+  width: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.star{
+  cursor: pointer;
+  transition: color 200ms;
+}
+
+.list_image{
+  width: 30%;
+}
+
+input[name= "rating"]{
+  display: none;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.flexParent{display: flex; flex-direction: row; justify-content: flex-start}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
