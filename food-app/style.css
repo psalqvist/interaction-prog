@@ -1,0 +1,129 @@
+
+@media (min-width: 650px){
+  .flexParent {display: flex; flex-wrap: wrap; text-align: center; justify-content: center};
+}
+
+@media (min-width: 650px) {
+    .flexParent1 {display: flex; flex-direction: row; justify-content: flex-start}
+}
+
+@media (min-width: 650px) {
+    .flexParent2 {display: flex; flex-direction: row; justify-content: flex-start}
+}
+
+.flexParent3 {display: flex; text-align: center; justify-content: flex-end; width: 100%}
+
+.flexParent4 {display: flex; align-items: center; flex-direction: column; width: 100%}
+
+body, button, select {
+  font-family: 'Lato', sans-serif;
+  color: rgba(0,0,0,0.7);
+}
+
+.searchResult, button, select {
+  cursor: pointer;
+}
+
+.searchResult {
+  margin: 40px;
+  width: 200px;
+  text-align: center;
+}
+
+.sidebar {
+  margin-top: 20px;
+  width: 500px;
+}
+
+#summarydiv {
+  width: 100%;
+}
+
+.setguests {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  border-style: none none solid none;
+  border-width: 2px;
+  border-radius: 50%
+  padding: 10px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.table {
+  margin-left: 10px;
+}
+
+td {
+  text-align: left;
+  padding: 10px;
+}
+
+#price {
+  text-align: right;
+}
+
+.sidebardish {
+  margin: 20px 10px 20px 0px;
+}
+
+#link {
+  display: inline-block;
+  width: 180px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(68, 136, 123);
+}
+
+#roundbutton {
+  border: none;
+  border-radius: 50%;
+  color: rgb(0,0,0,0.7);
+  text-align: center;
+  width: 30px;
+  height: 30px;
+}
+
+#roundbutton:hover {
+  background-color: rgba(68, 136, 123, 0.2);
+}
+
+#nrguests {
+  margin: 20px;
+}
+
+.button {
+  width: 100px;
+  margin-top: 5px; margin-bottom: 5px}
+
+.debug {
+  border-style: solid;
+}
+
+.searchResult:hover {
+  color: rgb(68, 136, 123);
+}
+
+input, select, #summary, #search, #backtosearch {
+  margin: 20px;
+}
+
+button, input, select {
+  background-color: white;
+  border: solid 2px;
+  border-color: rgb(0,0,0,0.7);
+  border-radius: 3px;
+  height: 30px;
+}
+
+button:hover , input:hover, select:hover {
+  border-color: rgb(68, 136, 123);
+}
+
+button:focus , input:focus, select:focus {
+  border-color: rgb(68, 136, 123);
+  outline: none !important;
+}
