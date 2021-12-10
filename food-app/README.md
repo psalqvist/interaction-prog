@@ -1,1 +1,1 @@
-# Food recipes app that generates shopping lists
+# Food recipes app
