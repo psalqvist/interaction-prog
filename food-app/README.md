@@ -1,1 +1,1 @@
-# week1
+# Food recipes app that generates shopping lists
